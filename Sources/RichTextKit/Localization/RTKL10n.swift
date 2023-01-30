@@ -104,8 +104,7 @@ public extension RTKL10n {
     let en = Locale(identifier: "en")
     let defaultBundle = Bundle.richTextKit.bundle(for: en)
     let defaultText = NSLocalizedString(key, bundle: defaultBundle!, comment: "")
-    let unlocalizedString = "SLRichTextKit.Strings." + defaultText
-    return unlocalizedString
+    return defaultText
   }
 }
 
