@@ -37,7 +37,7 @@ public extension Image {
     static let richTextFormat = symbol("textformat")
     static let richTextFormatBrush = symbol("paintbrush")
 
-    static let richTextMenuExport = symbol("square.and.arrow.up.on.square")
+    static let richTextMenuExport = symbol("icloud.and.arrow.up")
     static let richTextMenuPrint = symbol("printer")
     static let richTextMenuShare = symbol("square.and.arrow.up")
 
